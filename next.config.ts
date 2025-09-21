@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+// Just import — will throw if env is missing
+import "./src/env/server";
+import "./src/env/client";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // your Next.js config
 };
 
 export default nextConfig;
