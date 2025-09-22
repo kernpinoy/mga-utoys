@@ -1,5 +1,7 @@
-"use client";
-
 export default function LoginPage() {
-    return <h1>Hello, po!</h1>
+  return (
+      <header className="flex justify-end items-center p-4 gap-4 h-16">
+       
+      </header>
+  );
 }
